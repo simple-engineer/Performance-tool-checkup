@@ -202,7 +202,7 @@ class Ui_MainWindow(object):
             
                 z=np.polyfit(x,rawdata,2)
                 for i in x:
-                    yfit.append(z[0]*i**2++z[1]*i+z[2])
+                    yfit.append(z[0]*i**2+z[1]*i+z[2])
             
                 diff=[]
                 for i in range(len(rawdata)):
